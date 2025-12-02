@@ -6,5 +6,13 @@
 //CREO IL CONTATORE CON IL CICLO FOR
 
 for(let i = 1; i <= 100; i++){
-    console.log(i)
+//FIZZ per i multipli di 3 
+    if (i % 3 === 0) {
+        console.log("fizz")
+    }
+
+    //ELSE 
+    else{
+        console.log(i)
+    }
 }
